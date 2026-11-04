@@ -1,0 +1,12 @@
+{
+  "guildId": "ID_DO_SEU_SERVIDOR",
+  "syncOnStartup": true,
+  "defaultRankName": "Jogador",
+  "ranks": [
+    { "level": 1, "name": "Helper", "discordRoleIds": ["ID_DO_CARGO_HELPER"] },
+    { "level": 2, "name": "Moderador", "discordRoleIds": ["ID_DO_CARGO_MODERATOR"] },
+    { "level": 3, "name": "Admin", "discordRoleIds": ["ID_DO_CARGO_ADMIN"] },
+    { "level": 4, "name": "Head Admin", "discordRoleIds": ["ID_DO_CARGO_HEAD_ADMIN"] },
+    { "level": 5, "name": "Dono", "discordRoleIds": ["ID_DO_CARGO_DONO"] }
+  ]
+}

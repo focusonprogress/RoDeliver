@@ -1,0 +1,18 @@
+{
+  "name": "rodeliver-bot",
+  "version": "1.0.0",
+  "description": "Bot do Discord que sincroniza cargos do servidor com ranks de admin no Roblox",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
